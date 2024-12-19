@@ -1,0 +1,12 @@
+### Get All comment
+GET  http://localhost:5000/comments
+### Get user by id
+GET  http://localhost:5000/comments/123456
+### update user
+POST  http://localhost:5000/comments
+Content-Type: application/json
+{
+   "id": 123456,
+  "text": "good",
+ 
+}
